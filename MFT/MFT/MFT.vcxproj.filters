@@ -21,9 +21,15 @@
     <ClCompile Include="PPM.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Vegener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PPM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vegener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,7 @@
 #include <iostream>
+#include <string>
 #include "PPM.h"
+#include "Vegener.h"
 using namespace std;
 
 int main() {
@@ -11,5 +13,12 @@ int main() {
 	myppm->cypher(msg);
 	//myppm->~PPM();
 	return 0;
+	//vigenere
+	std::string key = "BUG";
+	Vegener* p = new Vegener(key);
+	std::string orig = "DOORS";
+    p->encrypt(orig);
+    p->decrypt(p->encrypt(orig));
+	cout << orig << endl;
 
 }
